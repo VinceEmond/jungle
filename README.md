@@ -3,7 +3,6 @@
 ## Table Of Contents
 
 - [Summary](#summary)
-- [About](#about)
 - [Features](#features)
   - [Admin Controls](#admin-controls)
   - [Users](#users)
@@ -24,7 +23,6 @@
 # Summary
 A mini e-commerce application built with **Rails 4.2** as part of the **Lighthouse Labs' Web Development Bootcamp** curiculum for the purposes of teaching [Rails](http://guides.rubyonrails.org/v4.2/) along with [RSpec](https://github.com/rspec/rspec-rails) and [Capybara](https://github.com/teamcapybara/capybara) testing. 
 
-## Purpose
 The Jungle project simulates the real-world scenario of inheriting an older project containing older frameworks/dependencies. This project emphasizes the need for strong problem solving skills to find the solutions applicable to this specific/older version of a codebase in order to avoid breaking older code while implementing new features or modifications.
 
 The tasks for this project involved adding in new features such as user authentication, category creation, a "sold out" badge, an order detail page, an admin dashboard, and multiple bug fixes from the original repository. Tests were also added to both the existing and new features.
