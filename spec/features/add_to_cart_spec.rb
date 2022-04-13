@@ -1,6 +1,6 @@
 require 'rails_helper'
 
-RSpec.feature "Visitor navigates to product page", type: :feature, js: true do
+RSpec.feature "Visitor adds product to cart", type: :feature, js: true do
 
   # SETUP
   before :each do
@@ -17,15 +17,14 @@ RSpec.feature "Visitor navigates to product page", type: :feature, js: true do
     end
   end
 
-  scenario "They see one specific product" do
-    # ACT
+  scenario "adding one product to cart, it should update the cart label" do
     visit root_path
+    expect(page).to have_content('My Cart (0)')
 
-    page.find(:xpath, "/html/body/main/section/div/article[1]/header/a").click
-    # first('article.product a h4').click
-    # first('.product').click_link('Details')
+    first('.product').click_button('Add')
+    # page.find(:xpath, "/html/body/main/section/div/article[1]/footer/form/button").click
 
-    expect(page).to have_css('.products-show')
+    expect(page).to have_content('My Cart (1)')
     save_screenshot
   end
 end
