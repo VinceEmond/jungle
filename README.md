@@ -23,9 +23,9 @@
 # Summary
 A mini e-commerce application built with **Rails 4.2** as part of the **Lighthouse Labs' Web Development Bootcamp** curiculum for the purposes of teaching [Rails](http://guides.rubyonrails.org/v4.2/) along with [RSpec](https://github.com/rspec/rspec-rails) and [Capybara](https://github.com/teamcapybara/capybara) testing. 
 
-The Jungle project simulates the real-world scenario of inheriting an older project containing older frameworks/dependencies. This project emphasizes the need for strong problem solving skills to find the solutions applicable to this specific/older version of a codebase in order to avoid breaking older code while implementing new features or modifications.
+The Jungle project simulates the real-world scenario of inheriting a project containing older frameworks and/or dependencies. This project emphasizes the need for strong problem solving skills to find solutions applicable to this specific/older version of a codebase in order to avoid breaking functionality while implementing new features or modifications.
 
-The tasks for this project involved adding in new features such as user authentication, category creation, a "sold out" badge, an order detail page, an admin dashboard, and multiple bug fixes from the original repository. Tests were also added to both the existing and new features.
+The tasks for this project involved integrating new features such as user authentication, category creation, a "sold out" badge, an order detail page, an admin dashboard, and multiple bug fixes from the original repository. Tests were also added to both the existing and new features.
 
 ## Features
 - ### Admin Controls:
@@ -48,7 +48,6 @@ The tasks for this project involved adding in new features such as user authenti
   - Created an order confirmation page
 - ### Other:
   - Added an "About" page
-
 ## Testing
 - ### RSpec Testing
   1. Tested validation of all user registration fields
@@ -59,9 +58,7 @@ The tasks for this project involved adding in new features such as user authenti
   2. Product Details - Check if clicking on a product loads the product details page
   3. Add to Cart - Check if adding an item to cart updates the "My Cart" total in the Nav bar
 
-
 ## Screenshots
-
 ### User Login Page
 ![User Login Page](./docs/images/User-Login-Page.png)
 ### Home Page
@@ -79,9 +76,7 @@ The tasks for this project involved adding in new features such as user authenti
 ### Admin Categories Page
 ![Admin Categories Page](./docs/images/Admin-Categories-Page.png)
 
-
 ## Getting Started
-
 ### Additional Steps for Apple M1 Machines
 
 1. Make sure that you are runnning Ruby 2.6.6 (`ruby -v`)
